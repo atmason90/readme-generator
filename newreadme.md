@@ -1,9 +1,9 @@
 
-  # Test Project
+  # Test
   ![License Badge](https://img.shields.io/badge/License-MIT-blue)
 
   ## Description
-  This is a test
+  Test
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,19 +14,19 @@
   * [Questions](#questions)
   
   ## Installation
-  List of installation instructions
+  Test
 
   ## Usage
-  This is how you use it
+  Test
 
   ## License
-  This project is licensed under the MIT
+  This project is licensed under the MIT license.
 
   ## Contributing
-  No contributions accepted at this time
+  Test
 
   ## Tests
-  npm test
+  Test
 
   ## Questions
   If there are any questions about this project, please reach out to me directly at atmason90@gmail.com. To see more of my projects, you can visit my GitHub profile at username: atmason90.
