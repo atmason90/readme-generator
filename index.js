@@ -88,7 +88,7 @@ const questions = () => {
         type: 'list',
         name: 'license',
         message: 'What license would you like to use?',
-        choices: ['MIT License', 'Apache License 2.0 License', 'Mozilla Public License 2.0', 'GNU AGPLv3 License', 'GNU GPLv3 License', 'GNU LGPLv3 License', 'Boost Software License 1.0', 'Unilicense'],
+        choices: ['MIT', 'Apache2.0', 'Mozilla-Public2.0', 'GNU-AGPLv3', 'GNU-GPLv3', 'GNU-LGPLv3', 'Boost-Software1.0', 'Unilicense'],
         default: ['MIT'],
         validate: nameInput => {
             if(nameInput) {
