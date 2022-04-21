@@ -129,8 +129,9 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(`${projectTitle}.md`, data, err => {
+// function writeToFile(fileName, data) {
+const writeFile = data => {    
+    fs.writeFile('newreadme.md', data, err => {
         if(err) {
             console.log(err);
             return;
@@ -141,15 +142,17 @@ function writeToFile(fileName, data) {
 };
 
 // TODO: Create a function to initialize app
-function init() {
+// function init() {
     questions()
     .then(answers => {
         return generateMd(answers);
     })
     .then(data => {
-        return writeToFile(data);
+        return writeFile(data);
     })
-}
-
+// }
+    .catch(err => {
+        console.log(err)
+    })
 // Function call to initialize app
-init();
+// init();
