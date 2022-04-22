@@ -129,7 +129,6 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
 const writeFile = data => {    
     fs.writeFile('newreadme.md', data, err => {
         if(err) {
@@ -142,17 +141,14 @@ const writeFile = data => {
 };
 
 // TODO: Create a function to initialize app
-// function init() {
-    questions()
-    .then(answers => {
-        return generateMd(answers);
-    })
-    .then(data => {
-        return writeFile(data);
-    })
-// }
-    .catch(err => {
-        console.log(err)
-    })
-// Function call to initialize app
-// init();
+questions()
+.then(answers => {
+    return generateMd(answers);
+})
+.then(data => {
+    return writeFile(data);
+})
+.catch(err => {
+    console.log(err)
+})
+
