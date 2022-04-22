@@ -7,6 +7,7 @@ GitHub Respository: https://github.com/atmason90/readme-generator
 ## Table of Contents
 * [Description](#description)
 * [Application Demo](#application-demo)
+* [Usage Instructions](#usage-instructions)
 * [Code Examples](#code-examples)
 * [Technologies Used](#technologies-used)
 * [Questions](#questions)
@@ -23,6 +24,22 @@ This application uses the npm inquirer package to present the user with prompts 
 ## Application Demo
 
 
+
+## Usage Instructions
+
+To use this application, please follow these steps:
+1. Clone this repository to a desired location on your machine
+2. Open the repository in your code editor
+3. navigate to the repository in your terminal and install npm inquirer by running the following command:
+    ```bash
+    npm install inquirer
+    ```
+4. Run the following command to initialize the application:
+    ```bash
+    node index.js
+    ```
+5. Answer all prompts presented in the terminal
+6. Once completed, a file called newreadme.md will be added to the repository. This file will include all the provided answers to the prompts.
 
 
 ## Code Examples
