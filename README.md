@@ -23,6 +23,7 @@ This application uses the npm inquirer package to present the user with prompts 
 
 ## Application Demo
 
+https://user-images.githubusercontent.com/99947655/164588099-47267f98-f8ca-4e03-a869-25b436c256e6.mp4
 
 
 ## Usage Instructions
